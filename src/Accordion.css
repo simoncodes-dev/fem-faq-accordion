@@ -4,6 +4,16 @@
     padding: 10px;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .faq:last-of-type {
     border-bottom: 0;
     margin-bottom: 20px;
@@ -14,6 +24,11 @@
     justify-content: space-between;
     color: hsl(292, 42%, 14%);
     font-weight: bold;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: hsl(292, 70%, 39%);
 }
 
 .open-btn {

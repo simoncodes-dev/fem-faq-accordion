@@ -9,14 +9,16 @@ function Accordion({ title, answer }) {
     };
     return (
         <article className="faq">
-            <div className="title">
+            <div className="title" onClick={toggleFaq}>
                 {title}
                 <span className="open-btn">
-                    <img
-                        onClick={toggleFaq}
-                        src={open ? "./icon-minus.svg" : "./icon-plus.svg"}
-                        alt={`Expand ${title}`}
-                    />
+                    <button onClick={toggleFaq}>
+                        <img
+                            onClick={toggleFaq}
+                            src={open ? "./icon-minus.svg" : "./icon-plus.svg"}
+                            alt={`Expand ${title}`}
+                        />
+                    </button>
                 </span>
             </div>
             <div className={`answer ${open ? "answer-open" : ""}`}>

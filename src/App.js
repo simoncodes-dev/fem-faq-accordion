@@ -28,7 +28,7 @@ function App() {
         <div className="App">
             <header className="header">
                 <h1>
-                    <img src="./icon-star.svg" /> FAQs
+                    <img src="./icon-star.svg" alt="Star Icon" /> FAQs
                 </h1>
             </header>
             {faqs.map((faq) => (
