@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fem-faq-accordion/static/css/main.d9c501dd.css",
+    "main.js": "/fem-faq-accordion/static/js/main.6e7653fe.js",
+    "static/media/background-pattern-desktop.svg": "/fem-faq-accordion/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
+    "index.html": "/fem-faq-accordion/index.html",
+    "main.d9c501dd.css.map": "/fem-faq-accordion/static/css/main.d9c501dd.css.map",
+    "main.6e7653fe.js.map": "/fem-faq-accordion/static/js/main.6e7653fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9c501dd.css",
+    "static/js/main.6e7653fe.js"
+  ]
+}
